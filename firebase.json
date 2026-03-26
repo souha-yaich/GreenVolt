@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "greenvolt-480dd",
+          "appId": "1:233738305831:android:236b5839c6a0673b666902",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "greenvolt-480dd",
+          "configurations": {
+            "android": "1:233738305831:android:236b5839c6a0673b666902",
+            "ios": "1:233738305831:ios:69b9f8b7666a02f3666902",
+            "web": "1:233738305831:web:8407a8e46aca0e9e666902"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

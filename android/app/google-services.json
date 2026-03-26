@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233738305831",
+    "project_id": "greenvolt-480dd",
+    "storage_bucket": "greenvolt-480dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233738305831:android:236b5839c6a0673b666902",
+        "android_client_info": {
+          "package_name": "com.example.greenvolt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC5Wgu2FSAY_JOmWDiu7U5F0DxLbnbZP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
